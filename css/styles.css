@@ -16,8 +16,28 @@ body {
 
   font-family: Roboto, sans-serif;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 /*------------------------------------------------------- службові класи---------------------------------------------- */
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 .list {
   list-style: none;
 }
@@ -59,6 +79,8 @@ body {
 /* --------------------------------------------HEADER ----------------------------------------------------*/
 .header {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -78,6 +100,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #2e2f42;
+}
+
+.header-list {
+}
+.header-item {
 }
 
 .header-list .header-link:hover,
@@ -122,6 +149,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -134,22 +162,35 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }
 
 /* -------------------------------------------------------SECTION PROGRAM--------------------------------------------------------*/
 .program {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-.program-title {
+.program-top-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
+.program-title{
+
+}
+.program-item{
+ 
+}
 .program-list {
+  
 }
 
 /* -------------------------------------------------------SECTION ІNSTRUCTION--------------------------------------------------------*/
 .instruction {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .instruction-title {
@@ -163,6 +204,8 @@ body {
 /* -------------------------------------------------------SECTION TEAM--------------------------------------------------------*/
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -186,6 +229,8 @@ body {
 
 .footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -217,6 +262,8 @@ body {
 
 /* -------------------------------------------------------PORTFOLIO PROJECTS--------------------------------------------------------*/
 .projects {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .projects-list {
