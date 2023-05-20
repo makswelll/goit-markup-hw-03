@@ -81,6 +81,7 @@ ul {
   font-style: normal;
   padding-top: 24px;
   padding-bottom: 24px;
+ 
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -103,8 +104,10 @@ ul {
 }
 
 .header-list {
+
 }
 .header-item {
+  
 }
 
 .header-list .header-link:hover,
@@ -126,6 +129,7 @@ ul {
   color: var(--primare-hover-color);
 }
 .header-contact {
+  
   font-style: normal;
 }
 .header-contact-link {
