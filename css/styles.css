@@ -30,6 +30,11 @@ ul {
   padding: 0;
 }
 
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /*------------------------------------------------------- службові класи---------------------------------------------- */
 .container {
   width: 1158px;
@@ -171,11 +176,7 @@ ul {
 }
 
 .hero-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 16px 32px;
-  gap: 10px;
   border-radius: 4px;
   margin: 0 auto;
 
@@ -184,7 +185,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -194,7 +194,6 @@ ul {
 /* -------------------------------------------------------SECTION PROGRAM--------------------------------------------------------*/
 .program {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 .program-top-title {
   font-size: 36px;
@@ -202,8 +201,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.program-container {
-}
+
 .program-title {
   margin-bottom: 8px;
 }
@@ -308,7 +306,7 @@ ul {
 }
 
 .footer-text {
-  margin-top: 18px;
+  margin-top: 16px;
   max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
@@ -358,15 +356,23 @@ ul {
   cursor: pointer;
 }
 /* -------------------------------------------------------PORTFOLIO EXAMPLES--------------------------------------------------------*/
-.examples-list{
+.projects-container {
+}
+
+.examples-list {
+ 
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px; 
-  
+  gap: 48px 24px;
 }
 .examples-item {
+  border: 1px solid #e7e9fc;
+}
+.examples-link {
 }
 .examples-title {
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .examples-text {
 }
