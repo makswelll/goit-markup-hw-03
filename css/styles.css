@@ -79,11 +79,29 @@ ul {
 /* --------------------------------------------HEADER ----------------------------------------------------*/
 .header {
   font-style: normal;
+}
+.header-container {
+  display: flex;
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
- 
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header-contact {
+  display: flex;
+  margin-left: auto;
+  gap: 40px;
 }
 .header-logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -101,13 +119,6 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #2e2f42;
-}
-
-.header-list {
-
-}
-.header-item {
-  
 }
 
 .header-list .header-link:hover,
@@ -129,7 +140,6 @@ ul {
   color: var(--primare-hover-color);
 }
 .header-contact {
-  
   font-style: normal;
 }
 .header-contact-link {
@@ -143,10 +153,14 @@ ul {
 
 /*------------------------------------------------ HERO--------------------------------------------------------*/
 .hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: #2e2f42;
 }
 
 .hero-title {
+  max-width: 496px;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -157,6 +171,14 @@ ul {
 }
 
 .hero-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  border-radius: 4px;
+  margin: 0 auto;
+
   font-family: inherit;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -167,7 +189,6 @@ ul {
   color: #ffffff;
   cursor: pointer;
   display: block;
-  margin: 0 auto;
 }
 
 /* -------------------------------------------------------SECTION PROGRAM--------------------------------------------------------*/
@@ -181,14 +202,21 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.program-title{
-
+.program-container {
 }
-.program-item{
- 
+.program-title {
+  margin-bottom: 8px;
+}
+.program-item {
 }
 .program-list {
-  
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.program-text {
+  width: 264px;
+  height: 72px;
 }
 
 /* -------------------------------------------------------SECTION ІNSTRUCTION--------------------------------------------------------*/
@@ -198,11 +226,16 @@ ul {
 }
 
 .instruction-title {
+  margin-bottom: 72px;
   text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+}
+.instruction-list {
+  display: flex;
+  gap: 24px;
 }
 
 /* -------------------------------------------------------SECTION TEAM--------------------------------------------------------*/
@@ -213,20 +246,33 @@ ul {
 }
 
 .team-title {
+  margin-bottom: 72px;
   text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .team-item {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
 }
 
 .team-name {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .team-text {
+  padding-bottom: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* -------------------------------------------------------FOOTER--------------------------------------------------------*/
@@ -235,6 +281,10 @@ ul {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-logo {
@@ -258,6 +308,8 @@ ul {
 }
 
 .footer-text {
+  margin-top: 18px;
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -271,6 +323,9 @@ ul {
 }
 
 .projects-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .projects-item {
@@ -285,6 +340,14 @@ ul {
 }
 
 .projects-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin-bottom: 72px;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -295,6 +358,12 @@ ul {
   cursor: pointer;
 }
 /* -------------------------------------------------------PORTFOLIO EXAMPLES--------------------------------------------------------*/
+.examples-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px; 
+  
+}
 .examples-item {
 }
 .examples-title {
