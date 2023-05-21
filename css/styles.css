@@ -238,6 +238,11 @@ img{
   text-align: center;
   letter-spacing: 0.02em;
 }
+
+.instruction-picture{
+  width: calc((100% - 48px) / 3);
+}
+
 .instruction-list {
   display: flex;
   gap: 24px;
@@ -293,6 +298,8 @@ img{
 }
 
 .footer-logo {
+  margin-bottom: 16px;
+  display: inline-block; 
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
@@ -303,6 +310,7 @@ img{
 }
 
 .footer-logo-color {
+  display: inline-block; 
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -313,7 +321,6 @@ img{
 }
 
 .footer-text {
-  margin-top: 16px;
   max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
