@@ -298,8 +298,9 @@ img {
 }
 
 .footer-logo {
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
+ 
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
