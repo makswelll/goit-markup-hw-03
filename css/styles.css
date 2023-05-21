@@ -270,6 +270,11 @@ img{
 .team-item {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+.team-description{
+  padding: 32px 16px;
+
 }
 
 .team-name {
@@ -280,7 +285,6 @@ img{
 }
 
 .team-text {
-  padding-bottom: 32px;
   text-align: center;
   letter-spacing: 0.02em;
 }
