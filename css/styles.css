@@ -198,7 +198,7 @@ img{
 
 /* -------------------------------------------------------SECTION PROGRAM--------------------------------------------------------*/
 .program {
-  padding-top: 120px;
+  padding: 120px 0; 
 }
 .program-top-title {
   font-size: 36px;
@@ -211,11 +211,13 @@ img{
   margin-bottom: 8px;
 }
 .program-item {
+  width: calc((100% - 72px) / 4);
 }
 .program-list {
   display: flex;
   align-items: center;
   gap: 24px;
+
 }
 .program-text {
   width: 264px;
