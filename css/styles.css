@@ -87,8 +87,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .header-navigation {
   display: flex;
@@ -98,6 +97,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-contact {
   display: flex;
