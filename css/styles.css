@@ -30,7 +30,7 @@ ul {
   padding: 0;
 }
 
-img{
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -40,7 +40,6 @@ img{
   width: 1158px;
   padding: 0 auto;
   margin: 0 auto;
-  
 }
 .list {
   list-style: none;
@@ -81,10 +80,9 @@ img{
 }
 
 /* --------------------------------------------HEADER ----------------------------------------------------*/
-.header { 
+.header {
   font-style: normal;
-  border-bottom: 1px solid #e7e9fc
-  
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
@@ -97,7 +95,6 @@ img{
   align-items: center;
 }
 .header-list {
-  
   display: flex;
   align-items: center;
   gap: 40px;
@@ -198,7 +195,7 @@ img{
 
 /* -------------------------------------------------------SECTION PROGRAM--------------------------------------------------------*/
 .program {
-  padding: 120px 0; 
+  padding: 120px 0;
 }
 .program-top-title {
   font-size: 36px;
@@ -217,7 +214,6 @@ img{
   display: flex;
   align-items: center;
   gap: 24px;
-
 }
 .program-text {
   width: 264px;
@@ -239,7 +235,7 @@ img{
   letter-spacing: 0.02em;
 }
 
-.instruction-picture{
+.instruction-picture {
   width: calc((100% - 48px) / 3);
 }
 
@@ -272,9 +268,8 @@ img{
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
-.team-description{
+.team-description {
   padding: 32px 16px;
-
 }
 
 .team-name {
@@ -303,7 +298,7 @@ img{
 
 .footer-logo {
   margin-bottom: 16px;
-  display: inline-block; 
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
@@ -314,7 +309,7 @@ img{
 }
 
 .footer-logo-color {
-  display: inline-block; 
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -381,7 +376,6 @@ img{
 }
 
 .examples-list {
- 
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
@@ -392,9 +386,13 @@ img{
 .examples-link {
   width: calc((100% - 48px) / 3);
 }
+.application-name{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .examples-title {
-  margin-top: 32px;
-  margin-bottom: 8px;
+   margin-bottom: 8px;
 }
 .examples-text {
 }
