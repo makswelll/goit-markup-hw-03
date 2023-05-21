@@ -339,6 +339,7 @@ img{
 }
 
 .projects-list {
+  margin-bottom: 72px;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -349,10 +350,12 @@ img{
 .projects-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .projects-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .projects-btn {
@@ -362,7 +365,7 @@ img{
   letter-spacing: 0.04em;
   border-radius: 4px;
   padding: 12px 24px;
-  margin-bottom: 72px;
+  border: 1px solid #e7e9fc;
 
   font-family: inherit;
   font-weight: 500;
@@ -387,6 +390,7 @@ img{
   border: 1px solid #e7e9fc;
 }
 .examples-link {
+  width: calc((100% - 48px) / 3);
 }
 .examples-title {
   margin-top: 32px;
