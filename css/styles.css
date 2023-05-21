@@ -38,10 +38,9 @@ img{
 /*------------------------------------------------------- службові класи---------------------------------------------- */
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 auto;
   margin: 0 auto;
-  outline: 2px solid red;
+  
 }
 .list {
   list-style: none;
@@ -84,6 +83,7 @@ img{
 /* --------------------------------------------HEADER ----------------------------------------------------*/
 .header {
   font-style: normal;
+  border-bottom: 1px solid #e7e9fc
 }
 .header-container {
   display: flex;
