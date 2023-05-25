@@ -164,6 +164,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 1440px;
+  margin: 0 auto;
 }
   
 
